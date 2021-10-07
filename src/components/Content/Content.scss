@@ -3,6 +3,7 @@
 .liveclass{
   height: 47vh;
   display: grid;
+  gap: 1em;
   grid-template-columns: 65% 35%;
   .livenow{
     text-align: center;
