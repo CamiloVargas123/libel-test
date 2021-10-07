@@ -1,0 +1,80 @@
+@import "../../../scss/index.scss";
+
+.viewlive{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+  align-items: center;
+  justify-content: center;
+  div{
+    display: flex;
+    gap: .5em;
+  }
+  &_img{
+    width: 244px;
+    height: 138px;
+    margin-right: .5em;
+    img{
+      border-radius: 3px;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+  .infolive{
+    border: solid 1px $color-gray;
+    border-radius: 3px;
+    padding: .5em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .2em;
+    width: -webkit-fill-available;
+    max-height: 138px;
+    .place{
+      .live{
+        background-color: red;
+        padding: 0 .5em;
+        border-radius: 3px;
+        color: white;
+        margin-right: .5em;
+      }
+      display: flex;
+      align-items: center;
+      color: $color-gray;
+    }
+
+    .title{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h3{
+        margin: 0;
+      }
+      button{
+        margin-left: .5em;
+        min-width: max-content;
+        padding: .5em;
+        background-color: red;
+        border: none;
+        border-radius: 3px;
+        color: white;
+        display: flex;
+        gap: .3em;
+      }
+    }
+
+    .on{
+      display: flex;
+      gap: .5em;
+      color: $color-gray;
+      p{
+        color: black;
+        font-weight: 700;
+      }
+    }
+
+    .viewers{
+      color: $color-gray;
+    }
+  }
+}
