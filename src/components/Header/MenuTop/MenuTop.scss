@@ -1,0 +1,13 @@
+.menutop{
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  color: white;
+  cursor: pointer;
+}
+.selected{
+  font-weight: 700;
+}
+.more{
+  margin-right: 5px;
+}
