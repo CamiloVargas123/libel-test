@@ -1,10 +1,10 @@
 @import "../../scss/index.scss";
 
 .liveclass{
-  height: 47vh;
   display: grid;
   gap: 1em;
   grid-template-columns: 65% 35%;
+  padding-bottom: 1em;
   .livenow{
     text-align: center;
     color: $color-gray;

@@ -15,9 +15,7 @@ export default function ComingSoon(props) {
           <span className="live">LIVE</span>
           <p>{place}</p>
         </div>
-        <div className="title">
           <h3>{title}</h3>
-        </div>
         <div className="timeleft">
           <span>time left</span>
           <p>{timeleft}</p>
