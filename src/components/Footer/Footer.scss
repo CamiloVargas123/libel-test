@@ -1,0 +1,62 @@
+@import "../../scss/index.scss";
+
+.bck-color{
+  background-color: $default-color;
+  width: 100%;
+  height: auto;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0;
+  gap: 1em;
+
+  &_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    div{
+      font-size: 1.2em;
+      display: flex;
+      color: $color-gray;
+      span{
+        font-weight: 800;
+        margin-left: .3em;
+        color: white;
+      }
+    }
+    h1{
+      margin: 0;
+    }
+
+    .button{
+      background-color: $secundary-color;
+      border: none;
+      padding: 1em 1.5em;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+
+  &_list{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    border-bottom: solid 1px $color-gray;
+    padding: 1em;
+    li{
+      color: $color-gray;
+      cursor: pointer;
+      padding: .5em;
+      border-radius: 3px;
+      &:hover{
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+}
