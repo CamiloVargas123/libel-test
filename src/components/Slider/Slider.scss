@@ -1,0 +1,62 @@
+@import "../../scss/index.scss";
+
+.slider{
+  background-color: royalblue;
+  height: 47vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  .content {
+    color: white;
+    p{
+      margin: 0;
+      font-size: 2em;
+      font-weight: 300;
+    }
+    h2{
+      margin: 0;
+      font-size: 3em;
+      font-weight: 700;
+    }
+    span{
+      font-weight: 700;
+    }
+  }
+  .button{
+    cursor: pointer;
+    margin-top: 2em;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 3px;
+    padding: .5em;
+    color: white;
+    &:hover{
+      background-color: white;
+      color: $default-color;
+    }
+  }
+
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .5em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    span{
+      width: 20px;
+      height: 8px;
+      background-color: transparent;
+      border-radius: 3px;
+      border: solid 1px white;
+    }
+    .selected{
+      width: 30px;
+      background-color: $secudnary-color;
+    }
+  }
+}
+
+
+
