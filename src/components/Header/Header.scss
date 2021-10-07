@@ -1,0 +1,16 @@
+@import "../../scss/index.scss";
+.bck-color{
+  background-color: $default-color;
+  height: 6vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &_logo{
+    h1{
+      margin: 0;
+      color: white;
+    }
+  }
+}
