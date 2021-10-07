@@ -1,0 +1,32 @@
+@import "../../../scss/index.scss";
+
+.infouser{
+  cursor: pointer;
+  display: flex;
+  gap: 1em;
+  color: white;
+  font-size: 1.5em;
+
+  &_profile{
+    display: flex;
+    gap: .2em;
+    align-items: center;
+  }
+}
+
+.notification{
+  position: relative;
+  .number {
+    font-size: .7em;
+    position: absolute;
+    top: -4px;
+    right: -7px;
+    background-color: $secudnary-color;
+    content: "";
+    border-radius: 100%;
+    padding: 0 5px;
+    span{
+      margin: 0;
+    }
+  }
+}
