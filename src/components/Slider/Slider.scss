@@ -1,11 +1,13 @@
 @import "../../scss/index.scss";
 
 .slider{
-  background-color: royalblue;
+  background-image: url("https://www.creativosonline.org/wp-content/uploads/2007/09/Modelos-3D-en-BLENDER.jpg");
   height: 47vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   .content {
     color: white;
