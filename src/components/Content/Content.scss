@@ -1,0 +1,17 @@
+@import "../../scss/index.scss";
+
+.liveclass{
+  height: 47vh;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  .livenow{
+    text-align: center;
+    color: $color-gray;
+    margin: .5em;
+  }
+  .viewall{
+    text-align: right;
+    color: $color-gray;
+    cursor: pointer;
+  }
+}
