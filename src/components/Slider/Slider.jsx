@@ -18,6 +18,7 @@ export default function Slider() {
           <span className="selected"></span>
           <span></span>
           <span></span>
+          <span></span>
         </div>
       </div>
     </div>
