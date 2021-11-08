@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/libel-test/static/css/main.90e9b4d2.chunk.css",
+    "main.js": "/libel-test/static/js/main.f612e6a8.chunk.js",
+    "main.js.map": "/libel-test/static/js/main.f612e6a8.chunk.js.map",
+    "runtime-main.js": "/libel-test/static/js/runtime-main.e11931b0.js",
+    "runtime-main.js.map": "/libel-test/static/js/runtime-main.e11931b0.js.map",
+    "static/js/2.0ad3abbf.chunk.js": "/libel-test/static/js/2.0ad3abbf.chunk.js",
+    "static/js/2.0ad3abbf.chunk.js.map": "/libel-test/static/js/2.0ad3abbf.chunk.js.map",
+    "static/js/3.254719a9.chunk.js": "/libel-test/static/js/3.254719a9.chunk.js",
+    "static/js/3.254719a9.chunk.js.map": "/libel-test/static/js/3.254719a9.chunk.js.map",
+    "index.html": "/libel-test/index.html",
+    "static/css/main.90e9b4d2.chunk.css.map": "/libel-test/static/css/main.90e9b4d2.chunk.css.map",
+    "static/js/2.0ad3abbf.chunk.js.LICENSE.txt": "/libel-test/static/js/2.0ad3abbf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e11931b0.js",
+    "static/js/2.0ad3abbf.chunk.js",
+    "static/css/main.90e9b4d2.chunk.css",
+    "static/js/main.f612e6a8.chunk.js"
+  ]
+}
