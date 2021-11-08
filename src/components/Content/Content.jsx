@@ -15,7 +15,7 @@ const getLiveNowAPi = [
     viewer: "1.02k"
   },
   {
-    img: "https://icegateinstitute.s3.ap-south-1.amazonaws.com/wp-content/uploads/2018/05/26123311/Live-Class.jpg",
+    img: "https://engineering.jhu.edu/magazine/wp-content/uploads/2021/01/shutterstock_1250202004-1024x631.jpeg",
     place: "Rugby - Africa",
     title: "Rugby Africa Gold Cup/2019 Qualifiers - Namibia vs Uganda",
     on: "KweseRug",

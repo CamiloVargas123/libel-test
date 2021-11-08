@@ -9,7 +9,7 @@ export default function ViewLive(props) {
   return(
     <div className="viewlive">
       <div className="viewlive_img">
-        <img src={img} alt="imagne.png" />
+        <img src={img} alt="imagen.png" loading="lazy" />
       </div>
       <div className="infolive">
         <div className="place">
